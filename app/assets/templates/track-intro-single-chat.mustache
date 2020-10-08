@@ -1,0 +1,29 @@
+{{#subTitle}}
+    <h2 class="mt0 mb3 px4 px0-sm fs-200 fs-150-sm fw-b-sm">{{subTitle}}</h2>
+{{/subTitle}}
+{{#feedback}}
+    <a class="tl dib mb3 px4 py3 br2 shadow-b-mid-gray-hover px0-sm fw-b {{ref}} tdn-hover transition-all" href="{{feedback}}" target="_blank">
+        <i class="fad fa-comment-alt-edit"></i>
+        Please take 30 seconds to give feedback on a session
+    </a>
+{{/feedback}}
+
+{{#liveMessage}}
+    <p class="fs-125 tl px4 px0-sm mt0 mb5 flex items-start">
+        {{#isLiveNow}}
+            <span class="mr3 px4 py2 px3-sm br3 bg-mint white fw-b fs-80 fs-66-sm ws-nowrap {{#showHostImages}}mr4{{/showHostImages}}">LIVE</span>
+        {{/isLiveNow}}
+        <span class="flex items-start {{#showHostImages}}ml3 ml3-sm ml0-xs ml0-md{{/showHostImages}}">
+            {{#hostRefs}}
+                <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mr3 mln4 br-100 dn-xs dn-md db-sm scale-150-hover transition-all" />
+            {{/hostRefs}}
+            <span>
+                {{liveMessage}}
+                {{^isLiveNow}}
+                    <a href="{{discordUrl}}" target="_blank" class="orange dn-sm">Click here to chat.</a>
+                {{/isLiveNow}}
+                <a href="{{discordUrl}}" target="_blank" class="orange dn-md-up">Click here to chat.</a>
+            </span>
+        </span>
+    </p>
+{{/liveMessage}}

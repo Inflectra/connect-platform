@@ -1,0 +1,23 @@
+<h2 class="dib tl mt0 mb3 px4 px0-sm fs-200 fs-150-sm fw-b-sm">Watch any session on this track until the end of October 2020</h2>
+
+<div class="flex flex-wrap">
+    {{#playlists}}
+        <div class="w10 w9-md w8-xs mx4 mb4">
+            <div class="px4 py3 mb3 bg-vlight-gray br3">
+                <h3 class="fw-b fs-125 my0 dib mr4">{{title}}</h3>
+                <a class="tl dib py2 tdn-hover transition-all orange-hover" href="{{feedback}}" target="_blank">
+                    <i class="fad fa-comment-alt-edit"></i>
+                    Please take 30 seconds to give your feedback
+                </a>
+            </div>
+            <div class="relative pa-widescreen">
+                <iframe 
+                    src='https://vimeo.com/showcase/{{playlist}}/embed' 
+                    allowfullscreen 
+                    class="absolute top0 left0 w-100 h-100"
+                    frameborder='0' 
+                    ></iframe>
+            </div>
+        </div>
+    {{/playlists}}
+</div>

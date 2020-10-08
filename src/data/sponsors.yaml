@@ -1,0 +1,344 @@
+- ref: 10pearls
+  title: 10 Pearls
+  discordChannel: '742895254822322199'
+  websiteURL: https://10pearls.com/
+  websiteName: 10pearls.com
+  emailAddress: info@10Pearls.com
+  phone: "(703) 935-1919"
+  description: Simply put, 10Pearls is an industry-leading end-to-end technology partner. We have a culture of innovation, uniquely designed to imagine and build mobile applications and custom software for the future. Our work is a cornucopia of emerging tech and digital transformation. We're also recognized by top research firms, including Gartner and Forrester. 10Pearls offers a complete suite of application and software development services, and we would love to partner with you.
+  representatives: Peter Hesse and Glen Hellman
+  videos:
+  - '459073350'
+  - '459073337'
+  - '459073364'
+  links:
+  - link: https://10pearls.com/innovation/
+    title: Innovation
+  - link: https://10pearls.com/augmentation/
+    title: Augmentation
+  - link: https://10pearls.com/modernization/
+    title: Modernization
+
+- ref: agile-training-champions
+  title: Agile Training Champions
+  discordChannel: '751461841279909929'
+  websiteURL: https://www.agiletrainingchampions.com/contact
+  websiteName: agiletrainingchampions.com
+  emailAddress: info@agiletrainingchampions.com
+  phone: ''
+  description: Agile Training Champions is a training organization started by Dr. Sriram Rajagopalan, with a simple mantra - Helping Everyone Excel. With cost-effective computer-based, online, self-paced courses, Agile Training Champions addresses your need to equip yourself with the tools for career growth
+  representatives: Sriram
+  links:
+  - link: assets/agile-training-champions-brochure.pdf
+    title: Brochure 
+    isPDF: true
+  - link: https://www.agiletrainingchampions.com/shop
+    title: Course Mall
+  - link: https://www.agiletrainingchampions.com/plot
+    title: Project Management for High School
+
+- ref: ai-appstore
+  title: AI Appstore
+  discordChannel: '742895451162017825'
+  isSVG: true
+  websiteURL: https://www.aiappstore.com/
+  websiteName: aiappstore.com
+  emailAddress: ''
+  phone: ''
+  description: AI Appstore specializes in custom subscription technology bundles, leveraging an intelligent platform using a personalized ‘virtual research assistant’ to enhance corporate growth. The company exceeds expectations of integration, testing, delivery, and management with a groundbreaking business model that is fully engaged in the sustainable development goals (“SDGs”) cultivated by the United Nations.
+  representatives: Rick and Channing
+  videos:
+  - '458304732'
+  - '458305816'
+  - '424385785'
+  links:
+  - link: https://towardsdatascience.com/abstractive-summarization-for-data-augmentation-1423d8ec079e
+    title: Abstractive Summarization for Data Augmentation
+
+- ref: ceefa-software
+  title: Ceefa Software
+  discordChannel: '742895556715610264'
+  websiteURL: https://www.ceefasoftware.com/
+  websiteName: ceefasoftware.com
+  emailAddress: info@ceefasoftware.com
+  phone: "+64 4 566 0007"
+  description: Ceefa Software are based in New Zealand and offer the WorX Manual Testing Accelerator – a breakthrough technology that places semi-automated processing power in the hands of non-technical testers without crossing the line into traditional automation, and without the hurdles that go with it. WorX allows test teams to quickly author and execute manual tests WITHOUT automation through a powerful, fun, and super-fast interface that plugs straight into SpiraTest out-of-the-box.
+  representatives: Aaron, Technical Director
+  videos:
+  - '456898809'
+  links:
+  - link: https://www.ceefasoftware.com/wp-content/uploads/WorX-Data-Sheet-Spira.docx
+    title: WorX DataSheet
+    isPDF: true
+  - link: https://www.ceefasoftware.com/company/
+    title: About Ceefa Software
+
+- ref: coveros
+  title: Coveros
+  discordChannel: '742895613548691497'
+  websiteURL: https://www.coveros.com/
+  websiteName: coveros.com
+  emailAddress: Info@Coveros.com
+  phone: "+1 (929) 341-0139 "
+  description: Coveros helps organizations accelerate the delivery of secure, reliable software. Its DevOps engineers help companies automate their agile development, testing, security, and delivery practices. Coveros improves the delivery of mission-critical software through consulting, coaching, and training programs.
+  representatives: Jeffery, Hugo, and Kimberly
+  videos:
+  - '457850940'
+  - '457850972'
+  - '457850987'
+  links:
+  - link: assets/coveros-about.pdf
+    title: About Coveros
+    isPDF: true
+  - link: assets/coveros-dev-ops-services.pdf
+    title: DevOps Services
+    isPDF: true
+  - link: assets/coveros-spira-quick-start.pdf
+    title: Spira Tools—DevSecOps Pipeline Integration QuickStart
+    isPDF: true
+  - link: https://www.coveros.com/QuickStarts
+    title: Agile, DevOps, Security, and Test Automation Quick Starts
+  - link: https://www.coveros.com/services/devops/
+    title: DevOps Engineering
+  - link: https://training.coveros.com/
+    title: Professional Training, Certification, and Coaching
+
+- ref: critical-logic
+  title: Critical Logic
+  discordChannel: '742895682175631361'
+  websiteURL: https://www.critical-logic.com/
+  websiteName: critical-logic.com
+  emailAddress: emasters@critical-logic.com
+  phone: "(509) 590-4194"
+  description: Critical Logic provides Integrated Quality Management tools and services. Efficient and intelligent test design is at the heart of Critical Logic’s Quality Assurance services. Using advanced model-based testing techniques, you’ll know exactly what to test to ensure a defect-free product. This takes the guesswork out of designing tests. As with Critical Logic’s BA and Functional Design & Analysis services, their Software QA service relies on formalisms and frameworks to bring a level of discipline to software validation that effectively complements the model-based testing efficiency. The result is a level of validation and verification usually reserved for only the most mission- and life-critical systems that is accessible to everyone and implementable in today's fast-paced development cycles.
+  representatives: Bob Johston, Evan, and Sam
+  videos:
+  - '457919245'
+  - '457919305'
+  - '457919446'
+  links:
+  - link: https://www.critical-logic.com/assets/Cause-Effect%20Modeling-Whitepaper-V2.pdf
+    title: Cause-Effect Modeling Whitepaper
+    isPDF: true
+  - link: https://www.critical-logic.com/assets/Critical-Logic-SunMicroSystems-CaseStudy.pdf
+    title: Oracle/Sun Case Study
+    isPDF: true
+  - link: https://www.critical-logic.com/assets/Critical-Logic-SFDC-Case-Study.pdf
+    title: Saleforce.com Case Study
+    isPDF: true
+  - link: https://www.critical-logic.com/dtt/
+    title: DTT product page
+  - link: https://www.critical-logic.com/iqm-studio-inflectra/
+    title: IQM Studio
+  - link: https://www.critical-logic.com/why-iqm/
+    title: Why IQM?
+
+- ref: de-agile-testers
+  title: De-Agile Testers
+  discordChannel: '742895765126512732'
+  noBooth: true
+  websiteURL: https://www.deagiletesters.nl/
+  websiteName: deagiletesters.nl
+  emailAddress: ''
+  phone: ''
+  description: ''
+  representatives: ''
+  videos: []
+  links: []
+
+- ref: ineffable-solutions
+  title: Ineffable Solutions
+  discordChannel: '743119690255302776'
+  websiteURL: https://www.ineffable-solutions.com/
+  websiteName: ineffable-solutions.com/
+  emailAddress: dsynadinos@ineffable-solutions.com
+  phone: 614-706-2337
+  description: Ineffable Solutions offers Speaking, Training, and Consulting services with a focus on you. After 25 years in IT/QA, helping to 'build better software and build software better', Damian Synadinos founded Ineffable Solutions to help 'build better people'. Ineffable Solutions offers keynotes, talks, workshops, and more that are based on diverse experience supported with deep research and focused on fundamental topics, skills, and issues that are at the core of the higher-level process, project, product, and business problems prevalent at companies today.
+  representatives: Damian
+  videos:
+  - '453619462'
+
+- ref: inflectra
+  title: Inflectra
+  discordChannel: '750453277782573096'
+  isSVG: true
+  websiteURL: https://www.inflectra.com
+  websiteName: inflectra.com
+  emailAddress: sales@inflectra.com
+  phone: 1 (866) 572-5878
+  description: Founded in 2006, Inflectra is a market leader in software test management, test automation, application lifecycle management, and enterprise portfolio management space. The company is headquartered in the USA but has offices in over 10 countries. Known globally for its legendary customer support, Inflectra makes turn-key solutions that address many challenges in software testing and QA, test automation, and product lifecycle management. Its methodology agnostic software tools are used in regulated industries where portfolio management, requirements traceability, release planning, resource management, document workflow, baselining, and enterprise risk analysis are required. The company uses a concurrent pricing model for all its tools with unlimited products, projects, sprints, tests, API calls, included in a single price. All Inflectra products have a 30-day free trial.
+  representatives: Kajal, Jessica, and Francois
+  videos:
+  - '452596864'
+  links:
+  - link: assets/inflectra-z-fold-brochure.pdf
+    title: What We Do At Inflectra
+    isPDF: true
+  - link: https://www.inflectra.com/Documents/application_lifecycle_management_inflectra_spira_team_2020_07_29_product_report.pdf
+    title: SpiraTeam - Info-Tech ALM Leaders Data Quadrant | Report 2020
+    isPDF: true
+  - link: https://www.inflectra.com/Methodologies/Scaled-Agile.aspx
+    title: Scaled Agile with SpiraPlan
+  - link: https://www.inflectra.com/Ideas/Whitepaper/10-Features-Every-Codeless-Test-Automation-Tool-Should-Offer.aspx
+    title: 10 Features Of Codeless Test Automation
+  - link: https://www.inflectra.com/Ideas/Whitepaper/DevOps-Using-SpiraTeam-Jenkins-and-TaraVault.aspx
+    title: DevOps Using SpiraTeam, Jenkins, and TaraVault
+
+- ref: influence-it
+  title: Influence IT
+  discordChannel: '742897601698857040'
+  isSVG: true
+  websiteURL: https://influenceit.com.au/
+  websiteName: influenceit.com.au
+  emailAddress: peter.brackstone@influenceit.com.au
+  phone: "+61 (410) 322-844"
+  description: Using the right people, with the right approach, tools, knowledge and experience, Influence IT Consulting can deliver superior quality outcomes for business, working with you to reduce your risk, speed to market and overall testing cost. Using appropriate tools to manage and automate the testing process to increase traceability, reduce implementation cost, increase test coverage, and increase business confidence and agility, our clients see immediate improvements. Automation can increase testing coverage of legacy systems to provide 'upgrade insurance'. Influence IT is proud to be the ASPAC Sales Office for Inflectra products and we use them extensively in our consulting engagements.
+  representatives: Peter Brackstone, Managing Director
+  videos:
+  - '453619474'
+  - '453619468'
+  links:
+  - link: https://www.influenceit.com.au/it-consulting/
+    title: IT Consulting - consulting and testing services
+  - link: https://order4me.com.au/
+    title: Order4Me - mobile backend for retailers
+  - link: https://quikstart.website/
+    title: Quikstart - professional websites, the quickest way possible
+
+- ref: magenic
+  title: Magenic
+  discordChannel: '743119960590778488'
+  websiteURL: https://magenic.com/
+  websiteName: magenic.com
+  emailAddress: ''
+  phone: ''
+  description: With over 25 years of creating IT success for our clients, Magenic can help you define, build, and optimize your software and deliver it faster to drive your digital transformation and business results Fast Forward.
+  representatives: Troy and Aparna
+  videos:
+  - '462721618'
+  - '462722804'
+  - '462721618'
+  links:
+  - link: https://magenic.drift.click/de4eaf89-230d-4db9-9589-ba0ad31356ff
+    title: How Devops Can Accelerate Your Cloud Modernization Efforts
+    isPDF: true
+  - link: https://magenic.drift.click/ac84690f-bc9f-4306-b945-2d02b770bab4
+    title: 10 Practices to Effectively Leverage DevOps
+    isPDF: true
+
+- ref: mike-lyles-consulting
+  title: Mike Lyles Consulting
+  noBooth: true
+  discordChannel: '750807339388502039'
+  websiteURL: https://mikelyles.me/
+  websiteName: mikelyles.me
+  emailAddress: ''
+  phone: ''
+  description: ''
+  representatives: ''
+  videos: []
+  links: []
+
+- ref: neotys
+  title: Neotys
+  discordChannel: '742897380948574238'
+  noBooth: true
+  websiteURL: https://www.neotys.com/
+  websiteName: neotys.com
+  emailAddress: ''
+  phone: ''
+  description: ''
+  representatives: ''
+  videos: []
+  links: []
+
+- ref: nvp
+  title: NVP
+  discordChannel: '742897194046062673'
+  isSVG: true
+  websiteURL: http://www.nvp.ca/
+  websiteName: nvp.ca
+  emailAddress: neil@nvp.ca
+  phone: "+1 (416) 809-5539"
+  description: NVP Software Solutions is dedicated solely to Software Quality Assurance and Software Testing. Founded by Neil Price-Jones in 1993 in Ontario, NVP provides customized solutions based on best practices and years of dedicated experience. We develop professional relationships with our resources so that we can best match our clients’ needs with our resources’ abilities.
+  representatives: Neil (President)
+  links:
+  - link: https://nvp.ca/wp-content/uploads/2019/06/Case-Study-1.pdf
+    title: 'Case Study 1: Bridging the Gap'
+    isPDF: true
+  - link: https://nvp.ca/wp-content/uploads/2019/07/Case-Study-3.pdf
+    title: 'Case Study 3: Regulatory Approval'
+    isPDF: true
+  - link: https://nvp.ca/wp-content/uploads/2019/07/Case-Study-4.pdf
+    title: 'Case Study 4: Assessment'
+    isPDF: true
+  - link: https://nvp.ca/services/assessments/
+    title: Assessment Services
+  - link: https://nvp.ca/services/consulting/
+    title: Consulting Services
+
+- ref: og-media
+  title: OG Media
+  discordChannel: '743120213717024768'
+  isSVG: true
+  websiteURL: http://owengotimer.com/
+  websiteName: owengotimer.com
+  emailAddress: owen@owengotimer.com
+  phone: "+1 (703) 638-0057"
+  description: We founded OG Media with small, local businesses in mind. Our goal is to provide business owners in Loudoun County, Virginia with the expertise and tools they need to be successful. From day one, OG Media has offered organic social media management, website development, graphic design, and business printing services at affordable prices, and we’ve made it a priority to equip our partners with the skills they need, so they can eventually take their website maintenance and social media management back in house.
+  representatives: Owen Gotimer (owner)
+  links:
+  - link: https://www.owengotimer.com/wp-content/uploads/2020/09/OG-Media-Which-Social-Media-are-Best-for-My-Small-Business-Goals.pdf
+    title: Which Social Media are Best for My Small Business Goals?
+    isPDF: true
+  - link: https://www.owengotimer.com/wp-content/uploads/2020/09/OG-Media-7-Key-Values-of-Social-Media.pdf
+    title: 7 Key Values of Social Media for Small Businesses
+    isPDF: true
+  - link: https://www.owengotimer.com/wp-content/uploads/2020/09/OG-Media-How-Your-Goals-Content-and-Audience-Affect-Your-Social-Media-Strategy.pdf
+    title: How Your Goals, Content, and Audience Affect Your Social Media Strategy
+    isPDF: true
+  - link: https://www.owengotimer.com/website-design/
+    title: Website Design Services
+  - link: https://www.owengotimer.com/social-media/
+    title: Social Media Services
+  - link: https://www.owengotimer.com/graphic-design/
+    title: Graphic Design Services
+
+- ref: pta
+  title: PTA Consulting
+  discordChannel: '742896999338082384'
+  isSVG: true
+  websiteURL: https://www.pta-consulting.com/
+  websiteName: pta-consulting.com
+  emailAddress: pta.koeln@pta.de
+  phone: "+49 221 962 91 722"
+  description: In addition to many years of experience in designing and developing application systems, PTA Consulting offers our customers in-depth specialist knowledge for optimizing and stabilizing their business processes. With around 400 employees at 12 locations in Germany and Switzerland, the PTA Group provides on-site support for customer in various industries, ensuring reliable, rapid-response and cost-effective services.
+  representatives: Frank Heise, Dennis Haßlöcher, Katy Kalippke
+
+- ref: tapqa
+  title: tapQA
+  discordChannel: '742896665706364950'
+  websiteURL: http://www.tapqa.com/
+  websiteName: tapqa.com
+  emailAddress: kwalton@tapqa.com
+  phone: "(952) 836-9918"
+  description: tapQA (powered by BCforward) is one of the country’s top specialized Software Quality Consulting Services firms.  We help organizations from Fortune 100 to cutting-edge startups with developing Quality Strategy Roadmaps, Test Automation architecture, and SAFe Agile Test Processes. We’re also one of the top domestic QA staff augmentation firms, staffing roles from senior QA strategists to test automation and manual testing specialists. tapQA is part of BCforward, a global IT consulting firm with strategic solutions for Enterprise Agility, SAFe Agile, Digital Transformation, and Project Management Office (PMO).
+  representatives: Kirk
+  videos:
+  - '461845676'
+  links:
+  - link: https://www.dropbox.com/s/qrwoppabe76qby4/tapQA-Services-2020.pdf?dl=0
+    title: tapQA Consulting Services overview
+    isPDF: true
+  - link: https://www.dropbox.com/s/ioxloqr76pl8k91/tapQA-BCforward-Services_v3.pdf?dl=0
+    title: tapQA + BCforward = transformative solutions that Drive Quality Forward
+    isPDF: true
+  - link: https://www.dropbox.com/s/pepll1m8o67twft/tapQA-Simplifying-the-Journey-from-QA-to-QE.pdf?dl=0
+    title: The Journey from QA to QE; how tapQA can help organizations achieve Quality   Engineering
+    isPDF: true
+  - link: https://www.tapqa.com/services/tapqa-solutions/qa-strategy/
+    title: tapQA Quality Strategy and Roadmap Consulting
+  - link: https://www.tapqa.com/services/tapqa-solutions/qa-staff-augmentation/
+    title: tapQA Staff Augmentation for all QA/QE roles
+  - link: https://www.tapqa.com/services/tapqa-solutions/test-automation/
+    title: tapQA Test Automation Services

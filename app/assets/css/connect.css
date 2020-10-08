@@ -1,0 +1,219 @@
+@font-face {
+	font-family: 'Josefin';
+    src: url('../fonts/JosefinSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/JosefinSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/JosefinSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/JosefinSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/JosefinSans-Regular.svg#JosefinSans') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    src: url('../fonts/Kanit-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Kanit-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Kanit-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Kanit-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Kanit-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Kanit-Light.svg#Kanit') format('svg'); /* Legacy iOS */
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box; 
+}
+
+body {
+    color: #333;
+	font-family: Josefin, sans-serif;
+    font-size: 16px;
+	font-weight: 300;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Josefin, sans-serif;
+	font-weight: normal;
+    line-height: 1.1;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #f08231;
+}
+img {
+    vertical-align: middle;
+}
+button,input,select,textarea {
+    color: inherit;
+}
+* {
+	box-sizing: border-box;
+}
+
+.bg-advanced-topics, .bg-advanced-topics-hover:hover { background-color: #8E7CC3; color: white;}
+.bg-workshops, .bg-workshops-hover:hover { background-color: #fdcb26; color: white;}
+.bg-inflectra-irl, .bg-inflectra-irl-hover:hover { background-color: #123282; color: white;}
+.bg-keynotes, .bg-keynotes-hover:hover { background-color: #06D6A0; color: white;}
+.bg-thought-leadership, .bg-thought-leadership-hover:hover { background-color: #F44A87; color: white;}
+.bg-partners, .bg-partners-hover:hover { background-color: #7686e5; color: white;}
+.bg-expo, .bg-expo-hover:hover { background-color: #ef3125; color: #fff;}
+.bg-index, .bg-index-hover:hover { background-color: #faebcc; color: #555;}
+.bg-speakers, .bg-speakers-hover:hover { background-color: #2a7772; color: #fff;}
+.bg-hallway, .bg-hallway-hover:hover { background-color: #1c263b; color: #fff;}
+.bg-chat, .bg-chat-hover:hover { background-color: #36393E; color: #fff;}
+.bg-faq, .bg-faq-hover:hover { background-color: #98c6c3; color: #fff;}
+
+.bg-advanced-topics-pale { background-color: #e6fbf5;}
+.bg-workshops-pale { background-color: #fffae9;}
+.bg-inflectra-irl-pale { background-color: #e7eaf2;}
+.bg-keynotes-pale { background-color: #d0f7ec;}
+.bg-thought-leadership-pale { background-color: #feedf3;}
+.bg-partners-pale { background-color: #f1f3fc;}
+.bg-speakers-pale { background-color: #e5eded;}
+.bg-hallway-pale { background-color: #e8e9eb;}
+
+.bg-advanced-topics-splash { background-color: #8E7CC3; background: linear-gradient(90deg, #8E7CC3, #8E7CC3 50%, #faebcc 100%); color: white}
+.bg-workshops-splash { background-color: #fdcb26; background: linear-gradient(90deg, #fdcb26, #fdcb26 50%, #faebcc 100%); color: white}
+.bg-index-splash { background-color: #faebcc; background: linear-gradient(90deg, rgba(142,124,195,1) 0%, rgba(253,203,38,1) 33%, rgba(6,214,160,1) 67%, rgba(239,49,37,1) 100%); color: white}
+.bg-keynotes-splash { background-color: #06D6A0; background: linear-gradient(90deg, #06D6A0, #06D6A0 50%, #faebcc 100%); color: white}
+.bg-thought-leadership-splash { background-color: #F44A87; background: linear-gradient(90deg, #F44A87, #F44A87 50%, #faebcc 100%); color: white}
+.bg-inflectra-irl-splash { background-color: #123282; background: linear-gradient(90deg, #123282, #123282 50%, #faebcc 100%); color: white}
+.bg-partners-splash { background-color: #7686e5; background: linear-gradient(90deg, #7686e5, #7686e5 50%, #faebcc 100%); color: white}
+.bg-expo-splash { background-color: #ef3125; background: linear-gradient(90deg, #ef3125, #ef3125 50%, #faebcc 100%); color: white}
+.bg-speakers-splash { background-color: #2a7772; background: linear-gradient(90deg, #2a7772, #2a7772 50%, #faebcc 100%); color: white}
+.bg-chat-splash { background-color: #36393E; background: linear-gradient(90deg, #36393E, #36393E 50%, #faebcc 100%); color: white}
+.bg-faq-splash { background-color: #98c6c3; background: linear-gradient(90deg, #98c6c3, #98c6c3 50%, #faebcc 100%); color: white}
+
+.b-advanced-topics { border-color: #8E7CC3;}
+.b-workshops { border-color: #fdcb26;}
+.b-inflectra-irl { border-color: #123282;}
+.b-keynotes { border-color: #06D6A0;}
+.b-thought-leadership { border-color: #F44A87;}
+.b-partners { border-color: #7686e5;}
+.b-speakers { border-color: #2a7772;}
+
+.b-advanced-topics-pale { border-color: #e6fbf5;}
+.b-workshops-pale { border-color: #fffae9;}
+.b-inflectra-irl-pale { border-color: #e7eaf2;}
+.b-keynotes-pale { border-color: #d0f7ec;}
+.b-thought-leadership-pale { border-color: #feedf3;}
+.b-partners-pale { border-color: #f1f3fc;}
+.b-speakers-pale { border-color: #e5eded;}
+
+.advanced-topics, .advanced-topics-hover:hover { color: #8E7CC3; }
+.workshops, .workshops-hover:hover { color: #fdcb26; }
+.inflectra-irl, .inflectra-irl-hover:hover { color: #123282; }
+.keynotes, .keynotes-hover:hover { color: #06D6A0; }
+.thought-leadership, .thought-leadership-hover:hover { color: #F44A87; }
+.partners, .partners-hover:hover { color: #7686e5; }
+.expo, .expo-hover:hover { color: #ef3125;}
+.index, .index-hover:hover { color: #faebcc;}
+.speakers, .speakers-hover:hover { color: #2a7772;}
+.chat, .chat-hover:hover { color: #36393E;}
+
+
+
+/*
+ HOME PAGE SPECIFIC CONTROLS
+*/
+#filter-one:checked~.css-radio-controlled:not(.css-for-one), 
+#filter-two:checked~.css-radio-controlled:not(.css-for-two), 
+#filter-three:checked~.css-radio-controlled:not(.css-for-three), 
+#filter-four:checked~.css-radio-controlled:not(.css-for-four) {
+	display: none;
+}
+
+#filter-one:checked~.radio-labels .css-radio-label[for$=filter-one], 
+#filter-two:checked~.radio-labels .css-radio-label[for$=filter-two],
+#filter-three:checked~.radio-labels .css-radio-label[for$=filter-three], 
+#filter-four:checked~.radio-labels .css-radio-label[for$=filter-four] {
+	background-color: #faebcc;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.15) inset;
+	color: #f08231;
+    text-decoration: none;
+}
+.radio-labels .css-radio-label {
+	cursor: pointer;
+	background-color: #f5f5f5;
+}
+.radio-labels .css-radio-label:hover {
+	background-color: #faebcc;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+    color: #f08231;
+    text-decoration: none;
+}
+
+
+/*
+ NAVIGATION
+*/
+.nav-hamburger {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    transition: all .4s;
+    z-index: 2;
+}
+.nav-hamburger:before, .nav-hamburger:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 2px solid #f1f1f1;
+    height: 1px;
+    transition: all .5s;
+    left: 50%;
+    width: 16px;
+    transform: translate(-50%,-50%);
+}
+.nav-hamburger:before {
+    top: 35%;
+}
+.nav-hamburger:after {
+    top: 65%;
+}
+
+
+#input-nav-toggle:checked~.css-checkbox-label .nav-hamburger:before {
+    transform: translate(-50%,-50%) rotate(-135deg);
+    top: 50%;
+}
+#input-nav-toggle:checked~.css-checkbox-label .nav-hamburger:after {
+    transform: translate(-50%,-50%) rotate(135deg);
+    top: 50%;
+}
+@media (max-width: 768px) {
+    #nav-sidebar,
+    #nav-sidebar {
+		display: none;
+	}
+    #input-nav-toggle:checked~#nav-sidebar,
+    #input-nav-toggle:checked~#nav-sidebar {
+		display: initial;
+	}
+}
+
+
+/* 
+ COMPONENTS
+ */
+ .h-insideHeader { height: calc(100vh - 144px); }
+ .mtn-titan { margin-top: -54px; }
+ 
+ @media (max-height: 680px) {
+    .dn-h-sm { display: none; } /* used for hiding the connect logo on the sidebar */
+ }

@@ -1,0 +1,46 @@
+{{#hasSessions}}
+    <h3 class="mt3 mt4-md-down mb0 px4 fw-b fs-150">Today's Speakers</h3>
+    <ul class="lin ma0 pb4 pt3 px0 tl dib-md-down">
+        {{#sessions}}
+            <li class="py3 pl5 pr4 flex items-stretch {{#isLiveNow}}bg-mint white{{/isLiveNow}}">
+                <span class="flex">    
+                    {{#isLiveNow}}
+                        <span class="tc mln5 mr4 fs-66 ws-nowrap t-vertical b-white br br-dotted mr2">LIVE</span>
+                    {{/isLiveNow}}
+                    <span class="flex {{#isLiveNow}}ml2{{/isLiveNow}}">
+                        {{#speakerRefs}}
+                            <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mt2 mr3 mln4 br-100 dn-xs dn-md db-sm scale-150-hover transition-all" />
+                        {{/speakerRefs}}
+                    </span>
+                </span>
+                <span>
+                    <a 
+                        {{#discordUrl}}
+                            href="{{discordUrl}}" target="_blank" title="View their Discord channel in a new tab"
+                        {{/discordUrl}}
+                        class="fs-125 tdn tdn-hover transition-all {{#isLiveNow}} white black-hover{{/isLiveNow}}"
+                        >
+                        {{speakerTitle}}
+                    </a>
+                    </br>
+                    <span class="fw-b">
+                        {{startDisplay}}-{{endDisplay}}:
+                    </span>
+                    <span class="fs-100">
+                        {{title}}
+                    </span>
+                </span>
+            </li>
+        {{/sessions}}    
+    </ul>
+{{/hasSessions}}
+
+{{! optional chat channel - can be shown if the track has discord information and should also show speakers}}
+{{#discordUrl}}
+    <div class="bg-chat w-9 min-w9 px4 py3 fs-150 z-2 sticky top0">
+        <a href="{{discordUrl}}" target="_blank" class="white tdn-hover transition-all db py1">
+            {{discordTitle}}
+        </a>
+    </div>
+    <iframe src="{{titanUrl}}" class="w-100 h10 sticky top0 mtn-titan"></iframe>
+{{/discordUrl}}

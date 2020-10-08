@@ -1,0 +1,81 @@
+- ref: one
+  title: Day 1
+  date: 2020-09-29
+  message: 'September 29, 2020: Welcome to InflectraCon!'
+  titles:
+    workshops: Quality Assurance using Spira
+    keynotes: Day 1
+    thought-leadership: Day 1
+  playlists:
+    workshops: '7498377'
+    keynotes: '7520672'
+    thought-leadership: '7520658'
+  feedback:
+    workshops: https://forms.gle/gUDqYnqBVWUbVsVQ8
+    keynotes: https://forms.gle/vSM9NpkydVAC6R1UA
+    thought-leadership: https://forms.gle/vSM9NpkydVAC6R1UA
+
+- ref: two
+  title: Day 2
+  date: 2020-09-30
+  titles:
+    workshops: Product, Program and Portfolio Management with Spira
+    advanced-topics: Quality Assurance using Spira
+    inflectra-irl: Day 2
+    keynotes: Day 2
+    thought-leadership: Day 2
+  playlists:
+    workshops: '7505443'
+    advanced-topics: '7520660'
+    inflectra-irl: '7520680'
+    keynotes: '7520675'
+    thought-leadership: '7520665'
+  feedback:
+    workshops: https://forms.gle/1hHLivx93inuA9uB8
+    advanced-topics: https://forms.gle/1hHLivx93inuA9uB8
+    inflectra-irl: https://forms.gle/GLJ3dymL3j9ABp8y7
+    keynotes: https://forms.gle/GLJ3dymL3j9ABp8y7
+    thought-leadership: https://forms.gle/GLJ3dymL3j9ABp8y7
+
+- ref: three
+  title: Day 3
+  date: 2020-10-01
+  titles:
+    workshops: Test Automation Fundamentals with Rapise
+    advanced-topics: Programs and Portfolios
+    inflectra-irl: Day 3
+    keynotes: Day 3
+    thought-leadership: Day 3
+  playlists:
+    workshops: '7505502'
+    advanced-topics: '7520664'
+    inflectra-irl: '7520684'
+    keynotes: '7520677'
+    thought-leadership: '7520668'
+  feedback:
+    workshops: https://forms.gle/no2XMQqTgtwMMR7b8
+    advanced-topics: https://forms.gle/no2XMQqTgtwMMR7b8
+    inflectra-irl: https://forms.gle/K3AggMUNpgWU4UH87
+    keynotes: https://forms.gle/K3AggMUNpgWU4UH87
+    thought-leadership: https://forms.gle/K3AggMUNpgWU4UH87
+
+- ref: four
+  title: Day 4
+  date: 2020-10-02
+  message: 'Today is the last day - we hope you had a great time'
+  titles:
+    workshops: Spira Administration
+    advanced-topics: Test Automation
+    keynotes: Day 4
+    thought-leadership: Day 4
+  playlists:
+    workshops: '7466811'
+    advanced-topics: '7520666'
+    inflectra-irl: ''
+    keynotes: '7520678'
+    thought-leadership: '7520671'
+  feedback:
+    workshops: https://forms.gle/gSUVkVwcMfVqxUr1A
+    advanced-topics: https://forms.gle/gSUVkVwcMfVqxUr1A
+    keynotes: https://forms.gle/zd9b27YUqfAmZHbB6
+    thought-leadership: https://forms.gle/zd9b27YUqfAmZHbB6

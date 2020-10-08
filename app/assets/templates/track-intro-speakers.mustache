@@ -1,0 +1,32 @@
+{{#subTitle}}
+    <h2 class="tl mt0 mb3 px4 px0-sm fs-200 fs-150-sm fw-b-sm">{{subTitle}}</h2>
+{{/subTitle}}
+
+{{#feedback}}
+    <a class="dib px4 py3 br2 shadow-b-mid-gray-hover px0-sm fw-b {{ref}} tdn-hover transition-all" href="{{feedback}}" target="_blank">
+        <i class="fad fa-comment-alt-edit"></i>
+        Please take 30 seconds to give feedback on a session
+    </a>
+    <br/>
+{{/feedback}}
+
+{{#liveMessage}}
+    <a 
+        {{#isLiveNow}}
+            {{#discordUrl}}
+                href="{{discordUrl}}" target="_blank" title="View their Discord channel in a new tab"
+            {{/discordUrl}}
+        {{/isLiveNow}}
+        class="fs-125 tl px4 px3-sm py3 br3 mt0 mb4 inline-flex items-start tdn tdn-hover transition-all {{#isLiveNow}}shadow-b-mid-gray-hover{{/isLiveNow}}{{^isLiveNow}}color-initial-hover{{/isLiveNow}}"
+        >
+        {{#isLiveNow}}
+            <span class="mr3 px4 py2 px3-sm br3 bg-mint white fw-b fs-80 fs-66-sm ws-nowrap {{#showSpeakerImages}}mr4{{/showSpeakerImages}}">LIVE</span>
+        {{/isLiveNow}}
+        <span class="flex items-start {{#showSpeakerImages}}ml3 ml3-sm ml0-xs ml0-md{{/showSpeakerImages}}">
+            {{#speakerRefs}}
+                <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mr3 mln4 br-100 dn-xs dn-md db-sm scale-150-hover transition-all" />
+            {{/speakerRefs}}
+            {{liveMessage}}
+        </span>
+    </a>
+{{/liveMessage}}

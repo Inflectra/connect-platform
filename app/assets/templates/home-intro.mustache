@@ -1,0 +1,29 @@
+<h1 class="mb0">{{title}}</h1>
+<h2 class="mt3">{{message}}</h2>
+
+{{^conGlobal.isEnded}}
+    <p class="mt5 mb4 mw720 mx-auto fs-100 bb bt b-vlight-gray py3 px4 tl lh3">
+        <strong>All times are shown in {{timezone}}.</strong>  
+        </br>
+        For you, InflectraCon's days run from/to {{startingHour}} (midnight EDT). 
+        Speakers are available to talk to on chat for an hour, the day of their session. 
+        Chat start times are shown next to speakers on the program.  
+    </p>
+{{/conGlobal.isEnded}}
+
+{{#isFirstDayOrEarlier}}
+    <div class="mw720 flex flex-wrap bg-off-white br3 px5 px4-sm justify-center mx-auto">
+        <div class="ma4">
+            <p class="ma0 fw-b mb2">The Connect Platform</p>
+            <div class="dib br2 ov-hidden">
+                <iframe src="https://player.vimeo.com/video/460185678" class="db" width="256" height="144" frameborder="0" allow="autoplay; fullscreen" allowfullscreen ></iframe>
+            </div>
+        </div>
+        <div class="ma4">
+            <p class="ma0 fw-b mb2">Welcome from the Team Inflectra</p>
+            <div class="dib br2 ov-hidden">
+                <iframe src="https://player.vimeo.com/video/458739768" class="db" width="256" height="144" frameborder="0" allow="autoplay; fullscreen" allowfullscreen ></iframe>
+            </div>
+        </div>
+    </div>
+{{/isFirstDayOrEarlier}}

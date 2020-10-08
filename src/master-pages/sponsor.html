@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta name="ROBOTS" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+
+    <base target="_self" />
+
+    <!--Fav Icons-->
+    <link rel="icon" href="../assets/img/FavIcon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/FavIcon.ico" type="image/x-icon" />
+    
+    <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
+    <link href="../assets/css/unity.css" rel="stylesheet"/>
+    <link href="../assets/css/connect.css" rel="stylesheet"/>
+
+    <script src="../assets/js/mustache.js" charset="utf-8"></script>
+
+    <title>
+        {{conName}} - Sponsor: {{itemTitle}}
+    </title>
+</head>
+
+<body class="flex flex-column min-vh-100">
+    <!-- rendered with mustache -->
+    <header id="header" class="w-100 fixed-sm top0-sm left0-sm z-2"></header>
+
+    <div class="flex grow-1 mvw-100">
+        <input type="checkbox" class="dn" id="input-nav-toggle" name="toggle-sm">
+        <label class="css-checkbox-label fixed top0 left0 ma3 h5 w5 flex-sm justify-center items-center z-3 dn-not-imp " for="input-nav-toggle">
+            <i class="nav-hamburger"></i>
+        </label>
+
+        <!-- rendered with mustache -->
+        <nav 
+            class="css-checkbox-controlled mvh-100-sm min-h-insideHead-sm min-w8 w8 bg-off-white br b-light-gray b1 fs-110 vw-100-sm fixed-sm top3-sm z-2"
+            id="nav-sidebar"
+            >
+            Loading...
+        </nav>
+
+        <!-- rendered with mustache -->
+        <main class="grow-1 px5 px4-sm pb5 pt5" id="main"></main>
+
+        <!-- rendered with mustache -->
+        <aside class="min-w9 w9 dn-sm" id="aside-chat"></aside>
+    </div>
+</body>
+
+<!-- data -->
+<script src="../assets/data/global.js" charset="utf-8"></script>
+<script src="../assets/data/sponsors.js" ype="text/javascript" charset="utf-8"></script>
+
+<!-- logic and templates -->
+<script src="../assets/js/global.js" ype="text/javascript" charset="utf-8"></script>
+<script src="../assets/js/sponsor.js" ype="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,97 @@
+{{#days}}
+    <input type="radio" class="dn" id="filter-{{ref}}" name="filter-group" {{#isCurrent}}checked{{/isCurrent}}>
+{{/days}}
+
+<div class="radio-labels mb4 mb3-sm py4 py3-sm w-100 bb b1 b-light-gray fs-90-sm sticky relative-sm z-1-sm top0 z-2 bg-white">
+    {{#days}}
+        <label class="br2 inline-flex items-center css-radio-label px5 py3 px4-md px4-sm py2-sm mb2 transition-all fw-b" for="filter-{{ref}}">
+            <i class="far fa-calendar-alt mr3 o-30 dn-xs"></i>
+            <span>
+                {{title}} 
+                {{#shortDate}}
+                    <span class="db o-50 fs-75">{{shortDate}}</span>
+                {{/shortDate}}
+            </span>
+        </label>
+    {{/days}}
+</div>
+
+{{#days}}
+    {{#tracks}}
+        <div 
+            class="css-radio-controlled css-for-{{dayRef}} transition-all dib br3 ma4 mx0-sm w10 w-90-md w-90-sm w-100-xs bg-{{ref}}-pale shadow-tb-mid-gray-hover"
+            >
+            
+            <a 
+                {{#link}}href="{{link}}"{{/link}} {{#linkIsExternal}}target="_blank"{{/linkIsExternal}}
+                class="bg-{{ref}} dark-gray-hover ts-2-hover transition-all fw-b pa4 fs-110 ma0 br3-top flex justify-between items-center tdn tdn-hover"
+                title="Click to open the {{title}} track page"
+                >
+                <h3 class="ma0 fw-b fs-100 flex tl">
+                    <i class="{{iconClass}} mr3" aria-hidden="true"></i>
+                    {{title}}{{#subTitle}}: {{subTitle}}{{/subTitle}}
+                </h3>
+                {{#isProtected}}
+                    <i class="fas fa-lock-alt o-80 fs-80"></i>
+                {{/isProtected}}
+            </a>
+
+            {{#showTrackSpeakersOrTime}}
+                <div class="bg-{{ref}} b-{{ref}}-pale bt tl pl5 pl4-xs pr4 py3 ov-hidden flex items-center">
+                    {{#showTrackSpeakers}}
+                        {{#hostRefs}}
+                            <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mr3 mln4 mt2 br-100 dn-xs scale-150-hover transition-all" />
+                        {{/hostRefs}}
+                        {{hosts}}
+                    {{/showTrackSpeakers}}
+                    {{^showTrackSpeakers}}
+                        <span class="mln4 ml0-xs">Team Inflectra&nbsp;</span>
+                    {{/showTrackSpeakers}}
+                    {{#showTrackLiveTimes}}
+                        (chat live {{startDisplay}}-{{endDisplay}})
+                    {{/showTrackLiveTimes}}
+                </div>
+            {{/showTrackSpeakersOrTime}}
+
+            <ul class="lsn ma0 pa0 tl mid-gray dark-gray-hover fs-110">
+                {{#sessions}}
+                    <li 
+                        class="py3 pr4 pl5 pl4-xs flex"
+                        title="{{description}}">
+                        {{#showSpeaker}}
+                            {{#speakerRefs}}
+                                <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mr3 mt2 br-100 dn-xs mln4 scale-150-hover transition-all" />
+                            {{/speakerRefs}}
+                        {{/showSpeaker}}
+                        {{^showSpeaker}}
+                            <i class="fas fa-film o-50 mr3 mt2 mln4 dn-xs"></i>
+                        {{/showSpeaker}}
+                        <div>
+                            <span class="fw-b">{{title}}</span>
+                            {{#showSpeaker}}
+                                </br>
+                                <span class="fs-90">
+                                    {{speaker}} 
+                                    {{#showTimes}}
+                                        {{#discordChannel}}
+                                            <a 
+                                                href="https://discord.com/channels/742887383904681994/{{discordChannel}}" 
+                                                target="_blank" 
+                                                title="Open their speaker channel in a new tab"
+                                                class="tdn-hover transition-all"
+                                                >
+                                        {{/discordChannel}}
+                                        (chat live at {{startDisplay}})
+                                        {{#discordChannel}}
+                                            </a>
+                                        {{/discordChannel}}
+                                    {{/showTimes}}
+                                </span>
+                            {{/showSpeaker}}
+                        </div>
+                    </li>
+                {{/sessions}}
+            </ul>
+        </div>
+    {{/tracks}}
+{{/days}}

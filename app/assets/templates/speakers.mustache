@@ -1,0 +1,75 @@
+{{#speakers}}
+    <div 
+        class="tl transition-all dib br3 ma4 mx0-xs w10 w-90-sm w-100-xs bg-speakers-pale {{#discordChannel}}shadow-tb-mid-gray-hover{{/discordChannel}} tdn tdn-hover ov-hidden"
+        >
+        {{#discordChannel}}
+            <a 
+                class="tdn tdn-hover"
+                href="https://discord.com/channels/742887383904681994/{{discordChannel}}" 
+                target="_blank" 
+                title="Click to open their Discord channel"
+                >
+        {{/discordChannel}}
+            <h3 class="bg-speakers pa3 ma0 br3-top flex items-center justify-between ov-hidden">
+                <span class="flex items-center">
+                    <img src="assets/img/speakers/{{ref}}.png" alt={{title}} class="w6 h6 mr5 ml1 br-100 scale-200" />
+                    <span class="ml3">
+                        <span class="fs-110 fw-b">{{name}}</span>
+                        </br>
+                        <span class="fs-90 db">{{org}}</span>
+                    </span>
+                </span>
+                {{#discordChannel}}
+                    <span class="my2 tr">
+                        <i class="fab fa-discord mx3 fs-150 yolk"></i>
+                        </br>
+                        <span class="fs-90 db my0 mx3 yolk dn-xs">Click to open chat</span>
+                    </span>
+                {{/discordChannel}}
+            </h3>
+        {{#discordChannel}}
+            </a>
+        {{/discordChannel}}
+        <p class="fs-90 fs-80-xs my3 mx4">{{description}}</p>
+
+        <ul class="lsn mx0 mt0 mb3 pa0 tl mid-gray dark-gray-hover fs-110">
+            {{#sessions}}
+                <li class="py2 px4 flex items-start" title="{{tooltip}}">
+                    <span class="bg-light-gray br2 fs-50 px2 py1 mr3 mt2 tc w6 min-w6 tt-upper">{{dayName}}</span>
+                    {{#track}}
+                        <a 
+                            {{#hardLink}}href="{{hardLink}}" target="_blank"{{/hardLink}}
+                            {{^hardLink}}href="{{track}}.html"{{/hardLink}}
+                            class="tdn tdn-hover orange-hover transition-all"
+                            >
+                            <i class="{{trackIcon}} mr3 mt2 orange-hover transition-all {{track}}"></i>
+                        </a>
+                        <a 
+                            {{#hardLink}}href="{{hardLink}}" target="_blank"{{/hardLink}}
+                            {{^hardLink}}href="{{track}}.html"{{/hardLink}}
+                            class="tdn tdn-hover orange-hover transition-all mr3 fs-90-xs"
+                            >
+                            <span>{{title}}</span>
+                        </a>
+                    {{/track}}
+                    {{^track}}
+                        <i class="{{trackIcon}} mr3 mt2 orange-hover transition-all {{track}}"></i>
+                        <span class="mr3 fs-90-xs o-60">{{title}}</span>
+                    {{/track}}
+                    
+                    {{#startDisplay}}
+                        
+                        <a 
+                            {{#discordChannel}}
+                                href="https://discord.com/channels/742887383904681994/{{discordChannel}}" target="_blank" title="Click to open their Discord channel"
+                            {{/discordChannel}}
+                            class="ml-auto bg-yolk br2 fs-66 px2 py1 mt2 tc w6 min-w6 tdn tdn-hover dark-gray dark-gray-hover {{#discordChannel}}shadow-tl-mid-inset-hover transition-all{{/discordChannel}}"
+                            >
+                            live <strong>{{startDisplay}}</strong>
+                        </a>
+                    {{/startDisplay}}
+                </li>
+            {{/sessions}}
+        </ul>
+    </div>
+{{/speakers}}

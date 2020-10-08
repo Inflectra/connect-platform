@@ -1,0 +1,277 @@
+- ref: aaron-athfield
+  name: Aaron Athfield
+  org: Ceefa Software
+  description: Aaron is the founding director of Ceefa Software – a New Zealand company.
+  discordChannel: '750721577695576114'
+
+- ref: adam-sandman
+  name: Adam Sandman
+  org: Inflectra
+  description: Adam Sandman is the Founder and the Director of Technology at Inflectra.
+  discordChannel: '750506027635572797'
+  isVipSpeaker: true
+
+- ref: alejandro-jaramillo
+  name: Alejandro Jaramillo
+  org: KineticaDB
+  description: Alejandro Jaramillo is a Quality Engineer at KineticaDB.
+  discordChannel: '750773102744567900'
+
+- ref: alexey-grinevich
+  name: Alexey Grinevich
+  org: Inflectra
+  description: Alexey Grinevich is a Senior Software Developer at Inflectra Corporation.
+  discordChannel: ''
+
+- ref: amalachukwu-offiah
+  name: Amalachukwu Offiah
+  org: Microsoft
+  description: Amalachukwu (Mimi) Offiah is a Program Manager at Microsoft.
+  discordChannel: '750719495785414746'
+
+- ref: anna-royzman
+  name: Anna Royzman
+  org: Global Quality Leadership Institute
+  description: Anna Royzman is the Founder of Test Masters Academy (USA), an International
+  discordChannel: '751435986596134954'
+
+- ref: bart-knaack
+  name: Bart Knaack
+  org: Professional Testing B.V.
+  description: Bart Knaack is the Test Advisor at Professional Testing B.V.
+  discordChannel: '750772724661616791'
+
+- ref: bob-johnston
+  name: Bob Johnston
+  org: Critical Logic
+  description: Bob Johnston is the CEO of Critical Logic.
+  discordChannel: '750772115170656448'
+
+- ref: cynthia-wu
+  name: Cynthia Wu
+  org: Appian Corporation
+  description: Cynthia Wu is a Senior Quality Engineer at Appian Corporation.
+  discordChannel: '750730311515635772'
+
+- ref: damian-synadinos
+  name: Damian Synadinos
+  org: Ineffable Solutions
+  description: Damian Synadinos is the Owner at Ineffable Solutions, an International
+  discordChannel: '750506271991529554'
+  isVipSpeaker: true
+
+- ref: denis-markovtsev
+  name: Denis Markovtsev
+  org: Inflectra
+  description: Denis Markovtsev is the Principal Software Developer at Inflectra Corporation.
+  discordChannel: ''
+
+- ref: frank-heise
+  name: Frank Heise
+  org: PTA Consulting
+  description: Frank Heise is the Head of Quality Services, PTA GmbH.
+  discordChannel: '750772061089300531'
+
+- ref: gene-gotimer
+  name: Gene Gotimer
+  org: Steampunk Inc.
+  description: Gene Gotimer is a Senior DevSecOps engineer at Steampunk, Inc.
+  discordChannel: '750773978066321513'
+
+- ref: geoff-horne
+  name: Geoff Horne
+  org: Senior Consulting Test Director
+  description: Geoff Horne is a Senior Consulting Test Director &amp; Manager.
+  discordChannel: '750763086004093100'
+
+- ref: glen-hellman
+  name: Glen Hellman
+  org: 10Pearls
+  description: Glen Hellman is Senior Vice President of Sale at 10Pearls.
+  discordChannel: '750774111713755246'
+
+- ref: henrik-rexed
+  name: Henrik Rexed
+  org: Neotys
+  description: Henrik is a Performance Engineer at Neotys.
+  discordChannel: '750721745345970386'
+
+- ref: hugo-sanchez
+  name: Hugo Sanchez
+  org: Coveros
+  description: Hugo Sanchez is a Managing Consultant with Coveros.
+  discordChannel: '750772263086850171'
+
+- ref: huib-schoots
+  name: Huib Schoots
+  org: Agile Coach
+  description: Huib Schoots is a tester, consultant, and agile coach.
+  discordChannel: '750773754585546914'
+
+- ref: jeffery-payne
+  name: Jeffery Payne
+  org: Coveros
+  description: Jeffery Payne is the CEO of Coveros and an International Speaker.
+  discordChannel: '750505481449111653'
+  isVipSpeaker: true
+
+- ref: jennifer-bonine
+  name: Jennifer Bonine
+  org: The AI AppStore
+  description: Jennifer Bonine is the CEO of the AI App Store, an International Speaker,
+  discordChannel: '750466939356184717'
+  isVipSpeaker: true
+
+- ref: jim-ball
+  name: Jim Ball
+  org: The Cincinnati Insurance Company
+  description: Jim Ball is the Quality Assurance Auditor at The Cincinnati Financial
+  discordChannel: '750722228428996739'
+
+- ref: julie-gardiner
+  name: Julie Gardiner
+  org: Testing Rainmaker
+  description: Julie Gardiner is the CEO of Testing Rainmaker Ltd. an International
+  discordChannel: '750467211633885236'
+  isVipSpeaker: true
+
+- ref: kirk-walton
+  name: Kirk Walton
+  org: tapQA
+  description: Kirk Walton is the Vice President at tap|QA.
+  discordChannel: '750714384388587562'
+
+- ref: lee-barnes
+  name: Lee Barnes
+  org: Utopia Solutions
+  description: Lee Barnes is the Founder and CTO of Utopia Solutions
+  discordChannel: '750719772169338940'
+
+- ref: mark-tomlinson
+  name: Mark Tomlinson
+  org: FreedomPay
+  description: Mark Tomlinson is the Capacity and Performance Engineer and the producer
+  discordChannel: '750714559903301712'
+
+- ref: max-saperstone
+  name: Max Saperstone
+  org: TestPros
+  description: Max Saperstone is a VP of Testing Solutions at TestPros.
+  discordChannel: '750720244712210443'
+
+- ref: melissa-tondi
+  name: Melissa Tondi
+  org: International Speaker
+  description: Melissa Tondi is the Quality Engineering Lead at E*Trade, Speaker,
+  discordChannel: '750507087649308733'
+  isVipSpeaker: true
+
+- ref: mike-lyles
+  name: Mike Lyles
+  org: Bridgetree
+  description: Mike Lyles is an International Speaker, Author, and Director of QA
+  discordChannel: '750719215488466964'
+
+- ref: neil-price-jones
+  name: Neil Price-Jones
+  org: NVP Software
+  description: Neil Price-Jones is the founder and the Senior Quality Assurance Analyst
+  discordChannel: '750721816787550249'
+
+- ref: owen-gotimer
+  name: Owen Gotimer
+  org: OG Media
+  description: Owen Gotimer is the Founder and Owner of OG Media.
+  discordChannel: '750714618523156542'
+
+- ref: parveen-khan
+  name: Parveen Khan
+  org: Square Marble Technology
+  description: Parveen is a Senior Test Engineer at Square Marble Technology.
+  discordChannel: '750773847556620420'
+
+- ref: paul-grizzaffi
+  name: Paul Grizzaffi
+  org: Magenic
+  description: Paul Grizzaffi is a Principal Automation Architect at Magenic and an
+  discordChannel: '750497773354352660'
+  isVipSpeaker: true
+
+- ref: peter-brackstone
+  name: Peter Brackstone
+  org: Influence IT
+  description: Peter Brackstone is the founding manager of Influence IT Consulting
+  discordChannel: '750772208284205177'
+
+- ref: peter-hesse
+  name: Peter Hesse
+  org: 10Pearls
+  description: Peter Hesse is the Executive Vice President and Chief Security Officer
+  discordChannel: '750773025972027465'
+
+- ref: peter-kim
+  name: Peter Kim
+  org: Kinetica
+  description: Peter Kim is the Director of Quality Engineering at Kinetica.
+  discordChannel: '750772874033365033'
+
+- ref: raj-subrameyer
+  name: Raj Subrameyer
+  org: ChaiLatte Consulting
+  description: Raj Subrameyer is the Owner and CEO of ChaiLatte Consulting, an International
+  discordChannel: '750506171101872189'
+  isVipSpeaker: true
+
+- ref: reid-shepard
+  name: Reid Shepard
+  org: Amazon Web Services
+  description: Reid Shepard is an Account Manager at AWS.
+  discordChannel: '750714468580851822'
+
+- ref: remco-putker
+  name: Remco Putker
+  org: Robust IT
+  description: Remco is the founder and owner of Robust IT in the Netherlands.
+  discordChannel: '750807117501431829'
+
+- ref: ricardo-abella
+  name: Ricardo Abella
+  org: International Speaker
+  description: Ricardo Abella is the Agile Coach and an international speaker on Agile
+  discordChannel: '750774516866875582'
+
+- ref: simon-bor
+  name: Simon Bor
+  org: Inflectra
+  description: Simon has been with Inflectra since 2015 and is the Head of Products.
+  discordChannel: ''
+
+- ref: smita-mishra
+  name: Smita Mishra
+  org: QAZone Infosystems
+  description: Smita Mishra the founder of QAZone Infosystems.
+  discordChannel: '750772504079106178'
+
+- ref: sriram-rajagopalan
+  name: Sriram Rajagopalan
+  org: Inflectra
+  description: Sriram Rajagopalan, Ph.D. is the Enterprise Agile Evangelist at Inflectra.
+  discordChannel: ''
+
+- ref: teresa-langston
+  name: Teresa Langston
+  org: Inflectra
+  description: Teresa Langston is the Customer Engagement Specialist at Inflectra.
+  discordChannel: ''
+
+- ref: thomas-haver
+  name: Thomas Haver
+  org: International Speaker
+  description: Thomas Haver is an International Speaker and Test Automation Architect.
+  discordChannel: '750780712117862530'
+
+- ref: valarie-king-bailey
+  name: Valarie King-Bailey
+  org: OnShore Technology
+  description: Valarie King-Bailey is the CEO of OnShore Technology Group.
+  discordChannel: '750720165804769320'

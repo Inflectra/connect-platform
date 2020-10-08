@@ -1,0 +1,23 @@
+<ul class="sticky relative-sm top0 lsn ma0 pa0 ov-y-auto mvh-100" id="ul-nav-sidebar">
+    {{#items}}
+        <li class="pa0">
+            <a 
+                class="flex py3 px4 tdn tdn-hover transition-all bg-{{ref}}-hover {{#isActive}}bg-{{ref}} shadow-tl-mid-inset{{/isActive}}{{^isActive}} shadow-b-mid-gray-hover{{/isActive}}"
+                {{^isActive}}
+                    {{^hardLink}}href="{{#isInFolder}}../{{/isInFolder}}{{ref}}.html"{{/hardLink}}
+                    {{#hardLink}}href="{{hardLink}}" target="_blank"{{/hardLink}}
+                {{/isActive}}
+                >
+                <i class="{{iconClass}} orange mr4 ml3 lh2 fa-fw my2"></i>
+                <span class="lh2 my2">{{title}}</span>
+                {{#isProtected}}
+                    <i class="fas fa-lock-alt o-50 fs-50 v-super ml3 my2 lh2"></i>
+                {{/isProtected}}
+                {{#hardLink}}
+                    <i class="fas fa-external-link-alt o-50 fs-50 v-super ml3 my2 lh2"></i>
+                {{/hardLink}}
+            </a>
+        </li>
+    {{/items}}
+</ul>
+<img src="assets/img/connect-platform.svg" class="w7 o-70 mx4 mb3 fixed bottom0 dn-h-sm z-0"/>

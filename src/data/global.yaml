@@ -1,0 +1,13 @@
+utcOffsetMinutes: -240
+locale: en-US
+dateOptionsShort:
+  month: short
+  day: numeric
+dateOptionsLong:
+  year: numeric
+  month: long
+  day: numeric
+conName: InflectraCon™ 2020
+
+# this needs to be in quotes so JS interprets it as a string - otherwise it will use an int which will round the last few digits
+discordServer: "742887383904681994"

@@ -1,0 +1,71 @@
+<a class="dib mb4 mb3-sm mt4-sm pt3-sm expo orange-hover tdn-hover transition-all" href="{{otherSponsor}}.html"><i class="fas fa-dice mr2 o-50"></i>Checkout another sponsor</a>
+
+<h2 class="w-100 mt0 mb3 py3 mxn4 px4 sticky top0 relative-sm z-1-sm bg-white z-2 bb b-light-silver">
+    <a href="{{websiteURL}}" target="_blank">
+        <img class="w8 w7-sm mw-100" src="../assets/img/sponsors/{{ref}}.{{^isSVG}}png{{/isSVG}}{{#isSVG}}svg{{/isSVG}}" alt="{{title}}" />
+    </a>
+</h2>
+
+<div class="dib bb b-light-silver px4 pt2 mb3 inline-flex flex-wrap">
+    {{#websiteName}}
+        <a href="{{websiteURL}}" target="_blank" class="mr4 pb3 tdn-hover transition-all">
+            <i class="fas fa-globe-americas mr2 o-50"></i>
+            {{websiteName}}
+        </a>
+    {{/websiteName}}
+    {{#emailAddress}}
+        <a href="mailto:{{emailAddress}}" target="_blank" class="mr4 pb3 tdn-hover transition-all">
+            <i class="far fa-envelope mr2 o-50"></i>
+            {{emailAddress}}
+        </a>
+    {{/emailAddress}}
+    {{#phone}}
+        <div class="pb3">
+            <i class="fas fa-phone-alt mr2 o-50"></i>
+            {{phone}}
+        </div>
+    {{/phone}}
+</div>
+
+<p class="fs-125 mw720 mt0 mb4">{{description}}</p>
+
+{{^conGlobal.isEnded}}
+    <a href="{{discordUrl}}" target="_blank" class="fs-110 mb5 mt0 bt bb b-light-silver px4 py3 mb3 dib tdn-hover transition-all">
+        <i class="fab fa-discord mr2 o-50"></i>
+        Chat with {{representatives}} from {{title}}
+    </a>
+{{/conGlobal.isEnded}}
+
+<div class="flex flex-wrap">
+    {{#videos}}
+        <div class="dib br2 ov-hidden mr4 my3">
+            <iframe 
+                src="https://player.vimeo.com/video/{{.}}" 
+                width="256" 
+                height="144" 
+                frameborder="0" 
+                allow="autoplay; fullscreen" 
+                allowfullscreen
+                class="db"
+                ></iframe>
+        </div>
+    {{/videos}}
+</div>
+
+{{#hasLinks}}
+    <h3 class="mt5 mb3 fw-b fs-150">
+        Find out more...
+    </h3>
+    <ul class="mx0 mt0 mb5 pa0 lsn">
+        {{#links}}
+            <li>
+                <a class="br2 flex mw10 py3 px4 mb3 items-center tdn tdn-hover shadow-b-mid-gray-hover transition-all" target="_blank" 
+                    href="{{link}}"
+                    >
+                    <i class="fad {{#isPDF}}fa-file-pdf{{/isPDF}}{{^isPDF}}fa-link{{/isPDF}} fs-200 mr3"></i>
+                    <span class="fs-110">{{title}}</span>
+                </a>
+            </li>
+        {{/links}}
+    </ul>
+{{/hasLinks}}

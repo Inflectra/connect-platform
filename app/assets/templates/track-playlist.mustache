@@ -1,0 +1,22 @@
+{{#playlist}}
+    <div class="relative pa-widescreen">
+        <iframe 
+            src='https://vimeo.com/showcase/{{playlist}}/embed' 
+            allowfullscreen 
+            class="absolute top0 left0 w-100 h-100"
+            frameborder='0' 
+            ></iframe>
+    </div>
+{{/playlist}}
+{{^playlist}}
+    <p class="fs-150 fw-b tl px4 px0-sm ma0 flex items-center">
+        <i class="far fa-sad-tear gray fs-200 mr4"></i>
+        <span>
+            Boo, there are no sessions on this track today. 
+            </br>
+            Please check the 
+            <a href="index.html" class="orange orange-hover tdn tdn-hover">program</a> 
+            for what is available when. 
+        </span>
+    </p>
+{{/playlist}}
