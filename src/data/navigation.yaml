@@ -1,3 +1,9 @@
+# Array of navigation objects - used for the main nav, and creating top level pages (including tracks). This is the most complex data set as has lots of options to fine tune your program
+#
+# ================
+#   USAGE GUIDE
+# ================
+#
 # TODO add keys from index, keynotes, workshops, advanced topics, partner summit, expo, discord to make sure you explain everything
 
 - ref: index

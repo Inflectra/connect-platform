@@ -1,3 +1,11 @@
+# Array of sponsor objects - these are relatively large objects as are self-contained (they do not cross link to other yaml data files)
+#
+# ================
+#   USAGE GUIDE
+# ================
+#
+# TODO 
+
 - ref: 10pearls
   title: 10 Pearls
   discordChannel: '742895254822322199'

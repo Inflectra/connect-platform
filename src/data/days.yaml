@@ -1,7 +1,21 @@
+# a conference is made of many days. Each day needs to have one object entry in this YAML array
+#
+# ================
+#   USAGE GUIDE
+# ================
+#
+# ref: the unique reference for this day - this is used to match up sessions and navigation to speaker day objects
+# title: used on the program and in some other places (speaker page) to explain what day things happen on - this is used instead of just the date to help avoid confusion with people operating in different time zones
+# date: the date of this day in the format yyyy-mm-dd - no need / do not wrap this in quotes
+# message: the string you want to show on the home page when today is this today of the conference
+# titles: this is a YAML object (not array) that has one entry per relevant track to list the titles of each track for each day (used on the program and track pages). Make sure each key matches the ref of each track
+# playlists: this is a YAML object (not array) that has one entry per relevant track to list the playlist of each track for each day. Wrap in quotes to make sure they are handled as strings
+# feedback: this is a YAML object (not array) that has one entry per relevant track to list the url link to the feedback form for each track for each day.
+
 - ref: one
   title: Day 1
   date: 2020-09-29
-  message: 'September 29, 2020: Welcome to InflectraCon!'
+  message: 'Welcome to InflectraCon!'
   titles:
     workshops: Quality Assurance using Spira
     keynotes: Day 1

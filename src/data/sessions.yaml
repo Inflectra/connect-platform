@@ -1,3 +1,11 @@
+# Array of session objects - this is the backbone of the entire conference and links up to most of the yaml data structures
+#
+# ================
+#   USAGE GUIDE
+# ================
+#
+# TODO 
+
 - title: Simplifying Test Estimation
   speakerRefs: [geoff-horne]
   start: 2100

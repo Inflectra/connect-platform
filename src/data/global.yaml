@@ -1,3 +1,19 @@
+# Global data about the conference in a flat object
+#
+# ================
+#   USAGE GUIDE
+# ================
+#
+# conName: string of the conference name (used in many places including page titles)
+# utcOffsetMinutes: use this to set your 'home' timezone. Timezones are annoying. Connect conferences run for 24 hours a day - but when does the day start? Set your minutes from UTC here
+# locale: use the js / international code for your locale to localize time strings in your preferred format
+# dateOptionsShort: an object used to set the way short dates are displayed. this conforms to options described here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
+# dateOptionsLong: an object used to set the way long dates are displayed. this conforms to options described here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
+# discordServer: the id of your server. This needs to be in quotes so JS interprets it as a string
+# videoIntrosForFirstDay: array of videos that can be shown, if present, before and on the first day of the conference - useful for intro videos / guides to the conference to onboard people
+#   for each object in this array provide a video (string of the vimeo video id - not full url - in quotes), and the title for the video
+
+conName: InflectraCon™ 2020
 utcOffsetMinutes: -240
 locale: en-US
 dateOptionsShort:
@@ -7,7 +23,10 @@ dateOptionsLong:
   year: numeric
   month: long
   day: numeric
-conName: InflectraCon™ 2020
-
-# this needs to be in quotes so JS interprets it as a string - otherwise it will use an int which will round the last few digits
 discordServer: "742887383904681994"
+videoIntrosForFirstDay: 
+  - video: '460185678'
+    title: The Connect Platform
+
+  - video: '458739768'
+    title: Welcome from Team Inflectra
