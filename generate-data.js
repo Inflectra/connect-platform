@@ -126,13 +126,16 @@ function enhanceSessions(sessions, speakers, days, navigation, global) {
             session.speakerNames = sessionSpeakers.map(x => x.name) || null;
             session.speakerOrgs = sessionSpeakers.map(x => x.org) || null;
             if (session.speakerNames.length) {
-                session.speakerTitle = session.speakerNames.join();
+                session.speakerTitle = session.speakerNames.join(", ");
                 if (session.speakerOrgs.length) {
-                    session.speakerTitle += " (" + session.speakerOrgs.join() + ")";
+                    // get a unique list of speaker orgs before joining them to avoid repeating the same org - eg if the speakers are all from the same organization
+                    session.speakerTitle += " | " + [...new Set(session.speakerOrgs)].join(", ");
                 }
             }
             // we can only have one discord channel per session, so use the first in speaker in the array if we have more than one.
-            session.discordUrl = sessionSpeakers[0].discordChannel ? "https://discord.com/channels/" + global.discordServer + "/" + sessionSpeakers[0].discordChannel.discordChannel : null;
+            if (sessionSpeakers[0].discordChannel) {
+                session.discordUrl = "https://discord.com/channels/" + global.discordServer + "/" + sessionSpeakers[0].discordChannel;
+            }
         }
         
         // add track information
@@ -189,8 +192,13 @@ function generateProgram(sessions, speakers, days, navigation, global) {
                 // set the speaker info for the track if that is required
                 if (track.showTrackSpeakers) {
                     track.speakerRefs = [...new Set(dayTrackSessions.map(x => x.speakerRefs).flat())];
-                    track.speakerNames = [...new Set(dayTrackSessions.map(x => x.speakerName).flat())];
-                    track.speakerOrgs = [...new Set(dayTrackSessions.map(x => x.speakerOrg).flat())];
+                    const speakerNames = [...new Set(dayTrackSessions.map(x => x.speakerNames).flat())];
+                    const speakerOrgs = [...new Set(dayTrackSessions.map(x => x.speakerOrgs).flat())];
+                    track.speakerTitle = speakerNames.join(", ");
+                    if (speakerOrgs.length) {
+                        // get a unique list of speaker orgs before joining them to avoid repeating the same org - eg if the speakers are all from the same organization
+                        track.speakerTitle += " | " + [...new Set(speakerOrgs)].join(", ");
+                    }
                 }
 
                 // set extra params from the track object here

@@ -39,13 +39,13 @@
             {{#showTrackSpeakersOrTime}}
                 <div class="bg-{{ref}} b-{{ref}}-pale bt tl pl5 pl4-xs pr4 py3 ov-hidden flex items-center">
                     {{#showTrackSpeakers}}
-                        {{#hostRefs}}
+                        {{#speakerRefs}}
                             <img src="assets/img/speakers/{{.}}.png" class="w5 h5 mr3 mln4 mt2 br-100 dn-xs scale-150-hover transition-all" />
-                        {{/hostRefs}}
-                        {{hosts}}
+                        {{/speakerRefs}}
+                        {{speakerTitle}}
                     {{/showTrackSpeakers}}
                     {{^showTrackSpeakers}}
-                        <span class="mln4 ml0-xs">Team Inflectra&nbsp;</span>
+                        <span class="mln4 ml0-xs">{{defaultSpeakerTitle}}&nbsp;</span>
                     {{/showTrackSpeakers}}
                     {{#showTrackLiveTimes}}
                         (chat live {{startDisplay}}-{{endDisplay}})
@@ -71,20 +71,20 @@
                             {{#showSpeaker}}
                                 </br>
                                 <span class="fs-90">
-                                    {{speaker}} 
+                                    {{speakerTitle}} 
                                     {{#showTimes}}
-                                        {{#discordChannel}}
+                                        {{#discordUrl}}
                                             <a 
-                                                href="https://discord.com/channels/742887383904681994/{{discordChannel}}" 
+                                                href="{{discordUrl}}" 
                                                 target="_blank" 
                                                 title="Open their speaker channel in a new tab"
                                                 class="tdn-hover transition-all"
                                                 >
-                                        {{/discordChannel}}
+                                        {{/discordUrl}}
                                         (chat live at {{startDisplay}})
-                                        {{#discordChannel}}
+                                        {{#discordUrl}}
                                             </a>
-                                        {{/discordChannel}}
+                                        {{/discordUrl}}
                                     {{/showTimes}}
                                 </span>
                             {{/showSpeaker}}

@@ -62,7 +62,7 @@ function renderTrack(renderHeaderOnly) {
                 viewHeader.hostRefs = track.hostRefs;
                 viewHeader.showHostImages = true;
             } else {
-                viewHeader.hosts = "Team Inflectra";
+                viewHeader.hosts = track.defaultSpeakerTitle || false;
             }
 
             

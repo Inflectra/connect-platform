@@ -23,20 +23,27 @@ function init () {
     const pageTrackSpeakers = String(fs.readFileSync('src/master-pages/track-speakers.html'));
     makePages(tracksWithSpeakers, pageTrackSpeakers, global.conName, false);
     
-        // generate sponsor pages
-        const sponsorsWithPages = sponsors.filter(sponsor => !sponsor.noBooth).map(sponsor => {
-            return { ref: sponsor.ref, title: sponsor.title };
-        });
-        const pageSponsor = String(fs.readFileSync('src/master-pages/sponsor.html'));
-        makePages(sponsorsWithPages, pageSponsor, global.conName, "expo");
+    // generate sponsor pages
+    const sponsorsWithPages = sponsors.filter(sponsor => !sponsor.noBooth).map(sponsor => {
+        return { ref: sponsor.ref, title: sponsor.title };
+    });
+    const pageSponsor = String(fs.readFileSync('src/master-pages/sponsor.html'));
+    makePages(sponsorsWithPages, pageSponsor, global.conName, "expo");
 
     // generate some single pages
-    // generate speaker page
+    // speaker page
     const speakerItem = navigation.filter(nav => nav.ref === "speakers").map(nav => {
         return { ref: nav.ref, title: nav.title };
     });
     const pageSpeakers = String(fs.readFileSync('src/master-pages/speakers.html'));
     makePages(speakerItem, pageSpeakers, global.conName, false);
+
+    // home / program / index page
+    const programItem = navigation.filter(nav => nav.ref === "index").map(nav => {
+        return { ref: nav.ref, title: nav.title };
+    });
+    const pageProgram = String(fs.readFileSync('src/master-pages/index.html'));
+    makePages(programItem, pageProgram, global.conName, false);
 }
 
 // utility function that generates the new pages with updated information from the item itself (used in v1 for the page title only)

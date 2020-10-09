@@ -45,9 +45,11 @@
             viewTitle.title = "Starting " + conDays[0].shortDate;
             viewTitle.message = conGlobal.conName + " runs from " + conDays[0].shortDate + " through " + conDays[conDays.length - 1].shortDate;
         } else if (conGlobal.isEnded) {
-            viewTitle.conGlobal.isEnded = true;
+            viewTitle.isEnded = true;
+            viewTitle.conName = conGlobal.conName;
             viewTitle.title = conGlobal.conName + " has ended";
             viewTitle.message = "";
+            viewTitle.videoIntrosForFirstDay = conGlobal.videoIntrosForFirstDay;
         }
         viewTitle.timezone = getTimeZone();
         viewTitle.startingHour = setDisplayTime(new Date(conDays[0].start));

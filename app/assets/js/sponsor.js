@@ -23,6 +23,7 @@ function renderChat() {
             document.getElementById('aside-chat').innerHTML = rendered;
         // modern browsers
         } else if (!conGlobal.isEnded) {
+            console.log('should render expo discord')
             var view = { 
                 ref: conGlobal.current.pageItem.ref || "expo",
                 title: conGlobal.current.pageItem.title || "",

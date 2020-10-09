@@ -1,3 +1,5 @@
+# TODO add keys from index, keynotes, workshops, advanced topics, partner summit, expo, discord to make sure you explain everything
+
 - ref: index
   title: Program
   position: 0
@@ -59,6 +61,7 @@
   showTrackLiveTimes: true
   showTrackSpeakers: true
   hideSessionsForSpeaker: true
+  defaultSpeakerTitle: Team Inflectra
   hardLink: false
   discordChannel: '753670868110147674'
   showOnNav:
@@ -80,6 +83,7 @@
   showTrackLiveTimes: true
   showTrackSpeakers: false
   hideSessionsForSpeaker: true
+  defaultSpeakerTitle: Team Inflectra
   hardLink: false
   discordChannel: '753715235944267859'
   showOnNav:
