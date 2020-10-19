@@ -58,28 +58,28 @@ function renderTrack(renderHeaderOnly) {
             viewHeader.startDisplay = setDisplayTime(new Date(track.start));
             viewHeader.endDisplay = setDisplayTime(new Date(track.end));
             if (track.showTrackSpeakers) {
-                viewHeader.hosts = track.hosts;
-                viewHeader.hostRefs = track.hostRefs;
+                viewHeader.speakerTitle = track.speakerTitle;
+                viewHeader.speakerRefs = track.speakerRefs;
                 viewHeader.showHostImages = true;
             } else {
-                viewHeader.hosts = track.defaultSpeakerTitle || false;
+                viewHeader.speakerTitle = track.defaultSpeakerTitle || false;
             }
 
             
             // work out if the live session is happening now
             if (track.showTrackLiveTimes) {
                 if (dateNow.getTime() > track.end) {
-                    viewHeader.liveMessage = viewHeader.hosts + " is no longer live on chat. Ask any questions on chat and they'll reply later."
+                    viewHeader.liveMessage = viewHeader.speakerTitle + " is no longer live on chat. Ask any questions on chat and they'll reply later."
                     // set the global flag - used for the set interval function
                     conGlobal.current.liveNextChange = false;
                 } else if (dateNow.getTime() < track.start) {
-                    viewHeader.liveMessage = viewHeader.hosts + " will be live on chat " + viewHeader.startDisplay + "-" + viewHeader.endDisplay;
+                    viewHeader.liveMessage = viewHeader.speakerTitle + " will be live on chat " + viewHeader.startDisplay + "-" + viewHeader.endDisplay;
                     
                     // set the global flag - used for the set interval function
                     conGlobal.current.liveNextChange = track.start;
                 } else {
                     viewHeader.isLiveNow = true;
-                    viewHeader.liveMessage = viewHeader.hosts + " (" + viewHeader.startDisplay + "-" + viewHeader.endDisplay + ")";
+                    viewHeader.liveMessage = viewHeader.speakerTitle + " (" + viewHeader.startDisplay + "-" + viewHeader.endDisplay + ")";
                     // set the global flag - used for the set interval function
                     conGlobal.current.liveNextChange = track.end;
                 }
