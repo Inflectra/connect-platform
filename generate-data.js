@@ -105,13 +105,13 @@ function enhanceSessions(sessions, speakers, days, navigation, global) {
 
         // use day information to properly set the times
         if (sessionDay) {
-            // time fields are written in yaml as "hhmm" (1430, 0945), which can either be a string or int so convert it to a string here to handle all cases
-            const timeRegex = /\d{4}/g;
+            // time fields are written in yaml as "hh-mm" (14-30, 09-45) - this is the format that seems to be the safest when converting yaml to js (better than 1430 or 14:30)
+            const timeRegex = /\d{2}-\d{2}/g;
             const startTime = session.start && session.start.toString();
             const endTime = session.end && session.end.toString();
             if (startTime && startTime.match(timeRegex)) {
                 const startHours = startTime.substring(0,2),
-                    startMinutes = startTime.substring(2,4);
+                    startMinutes = startTime.substring(3,5);
                 session.start = new Date(sessionDay.start).setHours(startHours, startMinutes, 00)
             }
             if (endTime && endTime.match(timeRegex)) {
@@ -144,7 +144,6 @@ function enhanceSessions(sessions, speakers, days, navigation, global) {
             session.showSpeaker = sessionTrack.showSessionSpeakers && hasSpeaker ? true : false;
             session.showTimes = sessionTrack.showSessionLiveTimes && session.start  ? true : false;
         } 
-        
         // retun the enhanced session
         return session;
     })
@@ -178,7 +177,7 @@ function generateProgram(sessions, speakers, days, navigation, global) {
             //make a deep copy of the track to remove side effects of updating the original object
             let track = JSON.parse(JSON.stringify(t));
 
-            // get the sessions for this day and this track       
+            // get the sessions for this day and this track
             let dayTrackSessions = sessions.filter(session => session.day === day.ref && session.track === track.ref);
                 
             //only add the track to the day if the track has sessions
@@ -242,7 +241,9 @@ function enhanceSpeakers(sessions, speakers, days, navigation) {
 
             // map through the sessions and add some extra info to the session object
             let sessionsEnhanced = [];
-            speakerSessions.forEach(session => {
+            speakerSessions.forEach(sessionOriginal => {
+                // first create a deep copy of the session object so we do not pollute the original
+                var session = JSON.parse(JSON.stringify(sessionOriginal));
                 // get matches for the session from other conference data lists
                 const sessionDay = days.filter(day => session.day === day.ref)[0] || null;
                 const sessionTrack = navigation.filter(track => session.track === track.ref)[0] || null;

@@ -38,6 +38,7 @@
 
         // handle the page title view and template
         var viewTitle = {};
+        viewTitle.conName = conGlobal.conName;
         if (conGlobal.isUnderway) {
             viewTitle.title = conGlobal.current.day.title;
             viewTitle.message = conGlobal.current.day.message;
@@ -46,7 +47,6 @@
             viewTitle.message = conGlobal.conName + " runs from " + conDays[0].shortDate + " through " + conDays[conDays.length - 1].shortDate;
         } else if (conGlobal.isEnded) {
             viewTitle.isEnded = true;
-            viewTitle.conName = conGlobal.conName;
             viewTitle.title = conGlobal.conName + " has ended";
             viewTitle.message = "";
             viewTitle.videoIntrosForFirstDay = conGlobal.videoIntrosForFirstDay;
