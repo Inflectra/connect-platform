@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^0.12.3",
+    "http-server": "^14.1.1",
     "js-yaml": "^3.14.0"
   }
 }
